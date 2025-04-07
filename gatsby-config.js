@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/radian-studio`,
   siteMetadata: {
     title: `我的 Gatsby 部落格`,
     description: `使用 Gatsby 與 Markdown 建立的個人部落格`,
