@@ -54,6 +54,10 @@ jobs:
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
         run: npm install --legacy-peer-deps
+      - name: Ensure content directories exist
+        run: |
+          mkdir -p content/public content/private
+          touch content/public/.gitkeep content/private/.gitkeep
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'true'
