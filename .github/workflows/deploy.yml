@@ -19,6 +19,13 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
+      - name: Create content directories
+        run: |
+          mkdir -p content/public
+          mkdir -p content/private
+          touch content/public/.gitkeep
+          touch content/private/.gitkeep
+
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
