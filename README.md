@@ -1,4 +1,4 @@
-# Gatsby 靜態部落格
+# Gatsby 靜態部落格 
 
 這是一個使用 Gatsby 與 Markdown/MDX 建立的個人部落格，具有公開文章和私人文章區域。
 
